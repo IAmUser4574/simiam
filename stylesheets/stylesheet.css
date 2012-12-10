@@ -163,6 +163,22 @@ a.button span {
   height: 23px;
 }
 
+a.button hide {
+  display: none;
+}
+
+a.button:hover hide {
+  position: absolute;
+  width: 279px;
+  margin-left: -50px;
+  margin-right: 50px;
+  padding-top: 16px;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+
+
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
